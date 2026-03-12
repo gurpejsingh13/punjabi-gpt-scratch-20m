@@ -1,0 +1,12 @@
+{
+  "original_rows": 200000,
+  "filtered_rows": 193009,
+  "removed_rows": 6991,
+  "total_characters": 583626806,
+  "total_words": 110110073,
+  "avg_chars_per_doc": 3023.832080369309,
+  "avg_words_per_doc": 570.4919097036926,
+  "approx_tokens_3_chars_per_token": 194542268,
+  "approx_tokens_4_chars_per_token": 145906701,
+  "approx_tokens_5_chars_per_token": 116725361
+}

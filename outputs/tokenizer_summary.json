@@ -1,0 +1,8 @@
+{
+  "vocab_size": 16000,
+  "sample_texts_used": 10000,
+  "avg_chars_per_sample": 3016.6237,
+  "avg_tokens_per_sample": 1880.0796,
+  "estimated_chars_per_token": 1.6045191384449893,
+  "estimated_total_tokens": 363739385
+}
