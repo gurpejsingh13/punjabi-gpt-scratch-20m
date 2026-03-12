@@ -151,7 +151,7 @@ The model:
 ## Repository Structure
 
 ```text
-training-punjabi-gpt/
+.
 ├── README.md
 ├── requirements.txt
 ├── .gitignore
@@ -184,8 +184,8 @@ training-punjabi-gpt/
 
 1. **Clone the repository**
    ```bash
-   git clone <your-repo-url>
-   cd training-punjabi-gpt
+   git clone https://github.com/gurpejsingh13/punjabi-gpt-scratch-20m.git
+   cd punjabi-gpt-scratch-20m
    ```
 2. **Create and activate virtual environment**
    ```bash
