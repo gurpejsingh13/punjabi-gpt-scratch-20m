@@ -3,7 +3,11 @@
 <img src="assets/Punjabi-GPT-SCRATCH-20M.png" width="350" height="350" alt="Punjabi GPT Logo">
 </div>
 
-A 20.39M-parameter Punjabi decoder-only causal language model trained **from scratch** on Punjabi (Gurmukhi) text using **Hugging Face Transformers**, a custom tokenizer, and **Apple Silicon MPS** acceleration.
+# Punjabi-GPT-Scratch-20M
+
+A **20.39M-parameter** Punjabi **decoder-only** causal language model trained **from scratch** on **Punjabi (Gurmukhi) text** using **Hugging Face Transformers**, a **custom tokenizer**, and **Apple Silicon MPS acceleration**.
+
+**Punjabi-GPT-Scratch-20M** is a **20.39M-parameter Punjabi decoder-only language model** trained from scratch on **cleaned Gurmukhi text** using **Hugging Face Transformers**, a **custom 16K tokenizer**, and **Apple Silicon MPS**. Trained on a filtered subset of **AI4Bharat Sangraha Punjabi/Gurmukhi data** (**200K → 193K rows**, **~364M estimated tokens**), the model uses a **GPT-style architecture** with **8 layers**, **384 hidden size**, and **128 context length**. It was pretrained for **2 epochs** in about **2h 37m**, achieving a **validation loss of 1.4169**, **perplexity of 7.02**, and an average **Gurmukhi ratio of 94.66%** on benchmark generations.
 
 This project demonstrates an end-to-end local language model pipeline for Punjabi:
 - corpus download
