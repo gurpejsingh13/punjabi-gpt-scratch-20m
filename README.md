@@ -177,7 +177,10 @@ The model:
 └── data/
     └── README.md
 ```
-
+## > Note:
+- the repository currently does not include the trained model weight files due to file size constraints.
+- To run inference, place the trained model directory inside `outputs/` or update the script path accordingly.
+  
 # Punjabi GPT Training Pipeline
 
 ## Installation
